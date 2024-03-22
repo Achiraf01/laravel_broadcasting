@@ -1,6 +1,5 @@
 ## Installation
-
-1. Cloner le dépôt : https://github.com/Achiraf01/laravel_broadcasting.git
+1. Cloner le dépôt : 
 2. Se déplacer dans le répertoire du projet : `cd nom-du-répertoire`
 3. Installer les dépendances : `composer install`
 4. Copier le fichier `.env.example` et le renommer en `.env`
@@ -9,16 +8,15 @@
 7. Définir Redis comme pilote de diffusion dans le fichier `.env`, si ce n'est pas déjà le cas
 8. Effectuer les migrations : `php artisan migrate`
 9. Effectuer un seeding pour enregistrer des données fictives dans la base de données avec la commande : `php artisan db:seed`
-
-## Configuration du projet
-
-1. Installer `laravel-echo-server` avec la commande : `npm install laravel-echo-server`
-2. Initialiser `laravel-echo-server` avec la commande : `laravel-echo-server init`
-3. Lancer le serveur `laravel-echo-server` en utilisant la commande : `laravel-echo-server start`
-
-4. Lancer le serveur Redis sur votre machine
-5. Lancer le serveur de développement avec la commande : `php artisan serve`
-6. Lancer `npm run dev`
+10. Installer les dépendances npm avec la commande : `npm install `
+11. Installer `laravel-echo-server` avec la commande : `npm install laravel-echo-server` si ce n'est pas le cas
+12. Initialiser `laravel-echo-server` avec la commande : `laravel-echo-server init` si ce n'est pas le cas
+    
+## Initialisation du projet
+1. Lancer le serveur Redis sur votre machine
+2. Lancer le serveur `laravel-echo-server` en utilisant la commande : `laravel-echo-server start`
+3. Lancer le serveur de développement avec la commande : `php artisan serve`
+4. Lancer `npm run dev`
 
 ## Utilisation
 
