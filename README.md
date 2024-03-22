@@ -1,6 +1,6 @@
 ## Installation
 
-1. Cloner le dépôt : 
+1. Cloner le dépôt : https://github.com/Achiraf01/laravel_broadcasting.git
 2. Se déplacer dans le répertoire du projet : `cd nom-du-répertoire`
 3. Installer les dépendances : `composer install`
 4. Copier le fichier `.env.example` et le renommer en `.env`
