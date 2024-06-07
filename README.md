@@ -9,7 +9,7 @@
 8. Effectuer les migrations : `php artisan migrate`
 9. Effectuer un seeding pour enregistrer des données fictives dans la base de données avec la commande : `php artisan db:seed`
 10. Installer les dépendances npm avec la commande : `npm install `
-11. Installer `laravel-echo-server` avec la commande : `npm install laravel-echo-server` si ce n'est pas le cas
+11. Installer `laravel-echo-server` avec la commande : `npm install  -g laravel-echo-server` si ce n'est pas le cas
 12. Initialiser `laravel-echo-server` avec la commande : `laravel-echo-server init` si ce n'est pas le cas
     
 ## Initialisation du projet
